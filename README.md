@@ -3,4 +3,8 @@
 ![](https://david-dm.org/Adphorus/react-walkthru.svg)
 ![](https://david-dm.org/Adphorus/react-walkthru/dev-status.svg)
 
-Documentation is coming soon. For now, please check the 'demo' folder.
+Easy to use step-by-step site guide component for React.
+
+**Live Demo :** [http://adphorus.github.io/react-date-range](http://adphorus.github.io/react-date-range)
+
+> Documentation is coming soon. For now, please check the 'demo' folder.
