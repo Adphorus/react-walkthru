@@ -5,6 +5,6 @@
 
 Easy to use step-by-step site guide component for React.
 
-**Live Demo :** [http://adphorus.github.io/react-date-range](http://adphorus.github.io/react-walkthru)
+**Live Demo :** [http://adphorus.github.io/react-walkthru](http://adphorus.github.io/react-walkthru)
 
 > Documentation is coming soon. For now, please check the 'demo' folder.
