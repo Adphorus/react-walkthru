@@ -26,7 +26,7 @@
     "url": "http://github.com/Adphorus/react-walkthru/issues"
   },
   "dependencies": {
-    "react": "^0.13.0"
+    "react": ">=0.13.0 <0.14.0"
   },
   "devDependencies": {
     "babel": "^5.8.34"
