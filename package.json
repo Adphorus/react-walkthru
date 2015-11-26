@@ -1,6 +1,6 @@
 {
   "name": "react-walkthru",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easy to use step-by-step site guide component for React.",
   "main": "lib/index.js",
   "scripts": {
