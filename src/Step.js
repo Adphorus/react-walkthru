@@ -83,7 +83,7 @@ export default class Step extends Component {
           <div className='WalkThru-Footer' style={ this.styles['footer'] }>
             <button onClick={ next } style={ single ? this.styles['fullButton'] : this.styles['button'] }>
               { single && 'OK Got It' }
-              { last ? 'Done' : 'Next' }
+              { !single && (last ? 'Done' : 'Next') }
             </button>
             <div className='WalkThru-Nav' style={ this.styles['nav'] }>
               <span className='WalkThru-Nav-text' style={ this.styles['navText'] }>step { step }</span>
