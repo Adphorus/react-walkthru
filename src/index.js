@@ -11,7 +11,11 @@ export default class WalkThru extends Component {
     const storageId   = `___walkthru___.${id}.${frequencyCap}.${steps.length}`;
     const impressions = parseInt(localStorage.getItem(storageId) || 0);
 
-    if (impressions >= frequencyCap) {
+    // false = should show
+
+    if (impressions === -1) {
+      return true;
+    } else if (impressions >= frequencyCap) {
       return impressions >= frequencyCap;
     } else {
       localStorage.setItem(storageId, impressions + 1);
@@ -105,11 +109,17 @@ export default class WalkThru extends Component {
   }
 
   hide() {
+
     if (!this.props.___portal) {
       this.___portal.setState({ show : false });
     }
 
     this.setState({ show : false });
+
+    const { id, frequencyCap, steps } = this.props;
+    const storageId   = `___walkthru___.${id}.${frequencyCap}.${steps.length}`;
+
+    localStorage.setItem(storageId, -1);
   }
 
   destroy() {
