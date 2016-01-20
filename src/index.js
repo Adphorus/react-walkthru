@@ -164,6 +164,7 @@ export default class WalkThru extends Component {
     const { show, step, steps } = this.state;
 
     if (!___portal) return null;
+    if (steps.length === 0) return null;
 
     const current = steps[step - 1];
 

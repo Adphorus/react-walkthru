@@ -4,7 +4,7 @@
   "description": "Easy to use step-by-step site guide component for React.",
   "main": "lib/index.js",
   "scripts": {
-    "start-dev": "babel ./src --watch --out-dir ./lib & npm link && cd demo && npm install && npm link walkthru && npm run start-dev",
+    "start-dev": "babel ./src --watch --out-dir ./lib & cd demo && npm install && npm run start-dev",
     "prebuild": "rm -rf lib/*",
     "build": "babel ./src --out-dir ./lib",
     "prepublish": "npm run build"
