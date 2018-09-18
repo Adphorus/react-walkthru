@@ -1,6 +1,6 @@
 {
   "name": "react-walkthru",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Easy to use step-by-step site guide component for React.",
   "main": "lib/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "react"
   ],
   "author": "Burak Can <neoberg@gmail.com>",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "http://github.com/Adphorus/react-walkthru"
